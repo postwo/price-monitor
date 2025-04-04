@@ -11,7 +11,7 @@ public record PriceResponse(Double amount, String base, String currency) {
         return new PriceResponse(amount, base, currency);
     }
 
-    // 불필요한 data 레이어를 제거 해서 사용 
+    // 불필요한 data 레이어를 제거 해서 사용
     //여기서는 본래 api하고 다르게 data를 벗기고 그안쪽에 있는 데이터만 사용할거다
     //ex)
     //    {
